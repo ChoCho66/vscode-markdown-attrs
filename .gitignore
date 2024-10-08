@@ -1,0 +1,5 @@
+/.luarc.json
+*.vsix
+temp
+node_modules
+.DS_Store

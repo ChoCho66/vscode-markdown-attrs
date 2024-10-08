@@ -1,0 +1,35 @@
+{
+  "name": "vscode-markdown-attrs",
+  "version": "0.0.1",
+  "displayName": "vscode markdown attrs",
+  "description": "",
+  "keywords": [],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/ChoCho66/vscode-markdown-attrs"
+	},
+  "publisher": "ChoCho66",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./styles.css"
+    ]
+  },
+  "main": "./extension.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.33"
+  },
+  "dependencies": {
+    "markdown-it-attributes": "^1.2.0",
+    "markdown-it-bracketed-spans": "^1.0.1"
+  }
+}
