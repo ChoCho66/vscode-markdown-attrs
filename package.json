@@ -5,9 +5,9 @@
   "description": "",
   "keywords": [],
   "repository": {
-		"type": "git",
-		"url": "https://github.com/ChoCho66/vscode-markdown-attrs"
-	},
+    "type": "git",
+    "url": "https://github.com/ChoCho66/vscode-markdown-attrs"
+  },
   "publisher": "ChoCho66",
   "license": "MIT",
   "engines": {
@@ -16,7 +16,11 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:markdown",
+    "onLanguage:quarto",
+    "onLanguage:rmarkdown"
+  ],
   "contributes": {
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
